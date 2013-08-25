@@ -1,6 +1,10 @@
 Omrails::Application.routes.draw do
   
-  get 'about' => 'pages#about'
+  devise_for :users do get '/users/sign_out' => 'devise/sessions#destroy' end
+  get 'sezona2013' => 'pages#sezona2013'
+  get 'igraci' => 'pages#igraci'
+  get 'strelci' => 'pages#strelci'
+  get 'onama' => 'pages#onama'
   root :to => 'pages#home'
 
   # The priority is based upon order of creation: first created -> highest priority.

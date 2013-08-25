@@ -9,6 +9,7 @@ $navbarBackground: white;
 
 body{
     padding-top: 60px;
+
 }
 
 @import 'bootstrap-responsive';
@@ -21,9 +22,17 @@ body{
 
 .footer {
 
-	margin-top: 50px;
+	margin-top: 300px;
 	color: $grayLight;
 	a {
 		color: gray;
 	}
 }
+
+/*
+.hero-unit {
+        background-image: url(http://www.best-of-munich.com/allianz-arena/img/Allianz-Arena-gross5.jpg); 
+        background-size:1300px 800px;
+        background-repeat:no-repeat;   
+}
+*/
