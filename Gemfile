@@ -5,14 +5,15 @@ ruby '1.9.3'
 gem 'rails', '4.0.0.rc2'
 gem 'jquery-rails'
 #gem 'turbolinks'
-gem 'devise'
+gem 'devise','~> 3.0.1'
 gem 'simple_form'
+gem 'protected_attributes'
+
+
 
 group :production do
 	gem 'pg'
 end
-
-
 
 group :development, :test do
 	gem 'sqlite3'
