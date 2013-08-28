@@ -1,5 +1,7 @@
 Omrails::Application.routes.draw do
   
+  resources :pins
+
   devise_for :users do get '/users/sign_out' => 'devise/sessions#destroy' end
   get 'sezona2013' => 'pages#sezona2013'
   get 'igraci' => 'pages#igraci'
